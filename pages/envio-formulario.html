@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/reset.css">
+    <link rel="stylesheet" href="/css/flexbox.css">
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="icon" href="/assets/favicon.ico" type="image/x-icon">
+    <title>Adicione um produto!</title>
+</head>
+<body>
+    <body>
+        <header class="cabecalho">
+            <nav>  
+                <a href="./index.html">
+                    <h1 class="cabecalho__titulo">Alura<strong>Geek</strong></h1>
+                </a>
+            </nav>
+        </header>
+        <main>
+            <div class="conteudo__principal-form">
+                <h1 class="form__conteiner-titulo">Adicione um produto!</h1>
+                <form class="form__conteiner" data-formulario>
+            
+                    <div class="formulario__campo">
+                        <label>Insira o nome do produto</label>
+                        <input placeholder="Nome" data-nome/>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label>Insira o valor do produto em reais</label>
+                        <input placeholder="Valor com o formato R$0000,00" data-valor/>
+                    </div>
+
+                    <div class="formulario__campo">
+                        <label>Insira a URL da imagem</label>
+                        <input placeholder="Imagem" data-imagem/>
+                    </div>
+                </form>
+                <div class="formulario__botoes">
+                    <div class="formulario__botoes-campo">
+                        <button class="form__conteiner-botao-enviar" type="submit" data-formulario-envio>Enviar</button>
+                    </div>
+                    <div class="formulario__botoes-campo">
+                        <button class="form__conteiner-botao-limpar">Limpar</button>
+                    </div>
+                </div>
+            </div>
+        </main>
+        <footer class="creditos__conteiner">
+            <h2 class="creditos__conteiner-titulo">Alura<strong>Geek</strong></h2>
+            <p class="creditos__conteiner-texto">Desenvolvido por <a href="https://github.com/vana-cyber">Geovana</a></p>
+            <p class="creditos__conteiner-data">Alura Latam - 2024</p>
+        </footer>
+        <script src="/scripts/criarProdutos.js" type="module"></script>
+    </body>
+    </html>

@@ -1,0 +1,85 @@
+/* cabeçalho */
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+/* conteúdo produtos */
+.conteudo__principal {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 10rem;
+}
+
+.conteiner__produtos {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    gap: 3rem;
+    row-gap: 3rem;
+}
+
+
+.conteiner__produtos-item {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    text-align: center;
+    justify-content: flex-end;
+    max-width: 20rem;
+    max-height: 30rem;
+}
+
+.conteiner__produtos-card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+
+.conteiner__produtos-botao-lixeira img {
+    display: flex;
+    justify-self: flex-end;
+}
+
+/* conteúdo formulário */
+.conteudo__principal-form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 10rem;
+    gap: 4rem;
+}
+
+.form__conteiner {
+    display: flex;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.formulario__botoes {
+    display: flex;
+    gap: 5rem;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.formulario__campo {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+/* créditos  */
+.creditos__conteiner {
+    display: flex;
+    align-self: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 1rem;
+}

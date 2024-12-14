@@ -1,0 +1,106 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "nome": "Nintendo Switch",
+      "valor": "R$3000,00",
+      "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_986103-MLA73797277966_012024-F.webp"
+    },
+    {
+      "id": 2,
+      "nome": "New Nintendo 3DS",
+      "valor": "R$2600,00",
+      "imagem": "https://m.media-amazon.com/images/I/61MaQXBmoSL._AC_SX679_.jpg"
+    },
+    {
+      "id": 3,
+      "nome": "Fone Bluetooth Gamer Marvel Spider-Man Home-Aranha",
+      "valor": "R$160,00",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTm8bsbPi04K2NJvIG6-oKkqBuNblimQ_ETBzJVsvk4pKynPF4bPRXqa87zeSmD5evUsBg67fgxBxF2SiEasbMw4A-O_VcAQ_mV5dW976WTCpjGrQv8MejW&usqp=CAE"
+    },
+    {
+      "id": 4,
+      "nome": "Headset ONIKUMA B5 Bege com Orelha de Gato Bluetooth para Jogos Música com Iluminação RGB",
+      "valor": "R$269,87",
+      "imagem": "https://rolko.com.br/wp-content/uploads/2024/07/Headset-ONIKUMA-B5-Bege-com-Orelha-de-Gato-Bluetooth-para-Jogos-M-sica-com-Ilumina-o-RGB-ROLKO-tech-01.jpg"
+    },
+    {
+      "id": 5,
+      "nome": "Boneco Kirby Conjunto com 10 Miniaturas",
+      "valor": "R$ 165,00",
+      "imagem": "https://www.nerdloja.com/cdn/shop/files/Sc4d47a3fba3845a9b5a15519604e39592_1024x1024.webp?v=1715991598"
+    },
+    {
+      "id": 6,
+      "nome": "Console Dreamcast Edição Hello Kitty",
+      "valor": "R$ 890,00",
+      "imagem": "https://scontent-gru1-2.xx.fbcdn.net/v/t1.6435-9/92413234_10158377939309954_7638897741673791488_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=127cfc&_nc_ohc=S_ZIziKw1yYQ7kNvgE5dl9Z&_nc_zt=23&_nc_ht=scontent-gru1-2.xx&_nc_gid=ApLUUG6sGy4PBG1S3BD7ve1&oh=00_AYCc5eAQkjuGQVPnkGLtW9TG0pS37VCRMin5_lmEmRMwhw&oe=677EF673"
+    },
+    {
+      "id": 7,
+      "nome": "Brawl Stars Action Figure",
+      "valor": "R$129,80",
+      "imagem": "https://m.media-amazon.com/images/I/71rkUQjv+IL._AC_SL1200_.jpg"
+    },
+    {
+      "id": 8,
+      "nome": "Action Figure Pokémon WCT | Battle Feature Figure Deluxe Action (Várias Versões) Sunny",
+      "valor": "R$199,90",
+      "imagem": "https://acdn.mitiendanube.com/stores/002/321/455/products/plano-de-do-4da44b28915940b8ec17049181600920-640-0.webp"
+    },
+    {
+      "id": 9,
+      "nome": "Action Figure Naruto Uzumaki",
+      "valor": "R$ 189,91",
+      "imagem": "https://images.yampi.io/unsafe/fit-in/1000x1000/filters:background_color(white):upscale()/https://images.yampi.me/assets/stores/geekstore16/uploads/images/action-figure-naruto-uzumak-65cff796c576f-large.jpg"
+    },
+    {
+      "id": 10,
+      "nome": "Console Super Nintendo",
+      "valor": "R$604,50",
+      "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcQknyH8zz59pGIMu35De-A9t5cO4he8j_Gr9BqhBOgy-saNw6NRRw_9KHWgPTi633VEGhuamMew4FpHnSZ9aIOf9QZQ_GEgMrQbLj1uGpUubu5ls4RcdN2dxQ&usqp=CAE"
+    },
+    {
+      "id": 11,
+      "nome": "Caneca Geek Nerd No Coffee No Forcee - Xícara Sem Café Sem Força com Caixinha de Presente",
+      "valor": "R$25,00",
+      "imagem": "https://m.media-amazon.com/images/I/61KVUJIt-oL._AC_SL1000_.jpg"
+    },
+    {
+      "id": 12,
+      "nome": "Caneca Retro Game - Nerd e Geek",
+      "valor": "R$ 44,90",
+      "imagem": "https://cdn.awsli.com.br/600x700/186/186813/produto/31324437/d8638a249e.jpg"
+    },
+    {
+      "id": 13,
+      "nome": "PlayStation 4 Slim - 500GB",
+      "valor": "R$ 1.499,99",
+      "imagem": "https://images.tcdn.com.br/img/img_prod/1211726/playstation_4_slim_500_gb_1613_1_6ae62a7ee6c15d552f078426bf076fac.png"
+    },
+    {
+      "id": 14,
+      "nome": "Action Figure De Anime One Piece Roronoa Zoro Figura Três-knife Combate Skill",
+      "valor": "R$259,90",
+      "imagem": "https://down-br.img.susercontent.com/file/sg-11134201-22110-68eqrkhe6gjv24.webp"
+    },
+    {
+      "nome": "\t Caneca 3d Lufa-Lufa (Hufflepuff): Harry Potter",
+      "valor": "R$35,96",
+      "imagem": "https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSSXMw6sBgc5kSiktnh1BmSc-VEW7fC_qpQIvVwwh_eSETT1u2ekQ-Zwjb6w0ufX2vsmh3tBp1uoXDOdv9ftUJSz56A1VyYFDzjuTEsVcgQyv6-izy8wtMA8Q&usqp=CAE",
+      "id": 15
+    },
+    {
+      "nome": "\t Caneca Berserk Guts Anime Oferta",
+      "valor": "R$26,99",
+      "imagem": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcTJ4e5Hkd8GGVrtYd6pDtJFqsThWJn69cTuDF-a6CiDwGnljWuD73ReUREr3EKnpG82rq3Y6BVRsI3FP5rs3oYsAmRiOFg1ZONGFiIdlwnTfaB6UJ9Au2nS&usqp=CAE",
+      "id": 16
+    },
+    {
+      "nome": "\t Console Nintendo Game Boy DMG 01 IPS Seminovo",
+      "valor": "R$949,00",
+      "imagem": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcTa5CwPigx_1WW9_Oh-OGthAUqF_bI13wT5AhGvIaKLfmcAZogvTNaMMooTslT-xbeKQZynp8e92zJDmeq7NaMcLZAvWFb-mg&usqp=CAE",
+      "id": 17
+    }
+  ]
+}
