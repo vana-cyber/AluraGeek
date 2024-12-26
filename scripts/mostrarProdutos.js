@@ -33,4 +33,8 @@ async function acessoApi() {
 
 }
 
+export const exibeProduto = {
+    mostraProduto
+}
+
 acessoApi();

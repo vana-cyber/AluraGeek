@@ -1,19 +1,27 @@
 import { conectaApi } from "./conectaApi.js";
+import { exibeProduto } from "./mostrarProdutos.js";
 
-const botaoExcluir = document.querySelector("[data-botao-excluir]");
-const listaItens = conectaApi.listaProdutos();
-const lista = document.querySelector("[data-lista]");
-
-async function excluiItem(evento) {
+// Função para excluir um item
+async function excluiItem(id) {
     try {
-        await conectaApi.excluiProduto(id);
-        listaItens.forEach(item => (lista.removeChild(item.id)));
-        alert("Produto excluido com sucesso!");
-    } catch(e) {
-        alert(e);
+        await conectaApi.excluiProduto(id); // Exclui o produto via API
+        exibeProduto.mostraProduto(); // Atualiza a lista após a exclusão
+    } catch (e) {
+        alert('Erro ao excluir o item: ' + e);
     }
 }
 
+// Função que lida com o clique do botão de excluir
+function configurarEventos() {
+    const botaoExcluir = document.querySelector("[data-botao-excluir]");
+    
+    botaoExcluir.addEventListener("click", (evento) => {
+        const id = evento.target.value.id; // Pega o ID do item a partir do botão
+        if (id) {
+            excluiItem(id); // Exclui o item com o ID
+        }
+    });
+}
 
-
-botaoExcluir.addEventListener("click", evento => conectaApi.excluiItem(evento));
+// Configura os eventos de exclusão
+configurarEventos();
