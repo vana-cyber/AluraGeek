@@ -13,15 +13,16 @@ async function excluiItem(id) {
 
 // Função que lida com o clique do botão de excluir
 function configurarEventos() {
-    const botaoExcluir = document.querySelector("[data-botao-excluir]");
-    
-    botaoExcluir.addEventListener("click", (evento) => {
-        const id = evento.target.value.id; // Pega o ID do item a partir do botão
-        if (id) {
-            excluiItem(id); // Exclui o item com o ID
+    const listaProdutos = document.querySelector('[data-lista]');
+
+    listaProdutos.addEventListener('click', (evento) => {
+        if (evento.target.matches('[data-botao-excluir]')) {
+            const id = evento.target.getAttribute('data-id'); // Obtém o ID do botão
+            if (id) {
+                excluiItem(id); // Exclui o item com o ID
+            }
         }
     });
 }
 
-// Configura os eventos de exclusão
 configurarEventos();
